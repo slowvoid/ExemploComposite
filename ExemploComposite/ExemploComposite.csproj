@@ -37,16 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="composite\Box.cs" />
     <Compile Include="composite\Component.cs" />
     <Compile Include="composite\Object.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Composite-Box.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
